@@ -1,4 +1,10 @@
+services: mongodb
 language: ruby
 cache: bundler
+
 rvm:
   - 2.1.1
+
+env:
+  - MONGOID_VERSION=3
+  - MONGOID_VERSION=4
