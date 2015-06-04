@@ -1,0 +1,19 @@
+2015-06-04 10:26:10.009810 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-04 10:26:12.001505 D [10466:70167250200280] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-04 10:26:12.001673 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-04 10:26:12.001826 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-04 10:26:14.724238 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-04 10:26:15.562915 D [10467:70235634132700] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-04 10:26:15.563107 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-04 10:26:15.563166 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-04 10:26:15.563256 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-04 10:26:18.258313 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-04 10:26:19.123474 D [10468:70279435249360] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-04 10:26:19.123654 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-04 10:26:19.123711 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-04 10:26:19.123818 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-04 10:26:21.810723 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-04 10:26:22.991730 D [10469:70156760245980] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-04 10:26:22.991985 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-04 10:26:22.992039 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-04 10:26:22.992143 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
