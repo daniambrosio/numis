@@ -1,4 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/daniambrosio/numis/badges/gpa.svg)](https://codeclimate.com/github/daniambrosio/numis)
+[![Test Coverage](https://codeclimate.com/github/daniambrosio/numis/badges/coverage.svg)](https://codeclimate.com/github/daniambrosio/numis/coverage)
 
 # numis
 
