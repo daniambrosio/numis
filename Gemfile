@@ -28,6 +28,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'database_cleaner'
   gem 'rb-inotify', '~> 0.9'
+  gem 'rake' # travis CI will need this
 end
 
 gem 'bootstrap-sass', '~> 2.3.2.1'
