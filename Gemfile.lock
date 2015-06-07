@@ -348,6 +348,7 @@ DEPENDENCIES
   hashugar!
   jbuilder (~> 1.2)
   jquery-rails
+  libv8 (= 3.16.14.7)
   mongoid!
   mongoid-rspec
   omniauth
@@ -358,6 +359,7 @@ DEPENDENCIES
   rails (= 4.2.0)
   rails_admin!
   rails_semantic_logger
+  rake
   rb-inotify (~> 0.9)
   rspec-rails
   sass-rails (~> 4.0.0)
@@ -368,3 +370,6 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   zeus
+
+BUNDLED WITH
+   1.10.3
