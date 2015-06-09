@@ -28,7 +28,7 @@ group :test do
   gem 'ffaker'
   gem 'simplecov', require: false
   gem 'database_cleaner'
-  gem 'rb-inotify', '~> 0.9'
+#  gem 'rb-inotify', '~> 0.9'
   gem 'rake' # travis CI will need this
 end
 

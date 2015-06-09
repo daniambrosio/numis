@@ -360,7 +360,6 @@ DEPENDENCIES
   rails_admin!
   rails_semantic_logger
   rake
-  rb-inotify (~> 0.9)
   rspec-rails
   sass-rails (~> 4.0.0)
   simple_form!
