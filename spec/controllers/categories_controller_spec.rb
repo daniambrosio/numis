@@ -38,10 +38,12 @@ RSpec.describe CategoriesController, type: :controller do
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
   # CategoriesController. Be sure to keep this updated too.
-  let(:valid_session) { {} }
+  let(:valid_session) { {"warden.user.user.key" => session["warden.user.user.key"]} }
+  let (:user) { FactoryGirl.create(:user) }
 
   describe "GET #index" do
     it "assigns all categories as @categories" do
+      sign_in user
       category = Category.create! valid_attributes
       get :index, {}, valid_session
       expect(assigns(:categories)).to eq([category])
