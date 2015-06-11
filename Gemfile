@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.0'
-gem 'mongoid', github: 'mongoid/mongoid'
+gem 'mongoid', '~> 4.0.2'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -27,7 +27,7 @@ group :test do
   gem 'mongoid-rspec'
   gem 'ffaker'
   gem 'simplecov', require: false
-  gem 'database_cleaner'
+  gem 'database_cleaner', '~> 1.4.1'
 #  gem 'rb-inotify', '~> 0.9'
   gem 'rake' # travis CI will need this
 end
