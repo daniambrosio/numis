@@ -30,6 +30,7 @@ group :test do
   gem 'database_cleaner', '~> 1.4.1'
 #  gem 'rb-inotify', '~> 0.9'
   gem 'rake' # travis CI will need this
+  gem "codeclimate-test-reporter", require: nil
 end
 
 gem 'bootstrap-sass', '~> 2.3.2.1'
