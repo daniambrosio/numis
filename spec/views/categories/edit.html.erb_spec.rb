@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe "categories/edit", type: :view do
   before(:each) do
     @category = assign(:category, Category.create!(
-      :name => "MyString",
-      :type => ""
+      :name => "My Category Name",
+      :type => "Expense"
     ))
   end
 
