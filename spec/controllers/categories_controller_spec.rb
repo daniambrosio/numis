@@ -110,14 +110,16 @@ RSpec.describe CategoriesController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+          {name: "NEW Valid Category Name",
+           type: "Expense",
+           system: true}
       }
 
       it "updates the requested category" do
         category = Category.create! valid_attributes
         put :update, {:id => category.to_param, :category => new_attributes}, valid_session
         category.reload
-        skip("Add assertions for updated state")
+        expect(category.name).to eq("NEW Valid Category Name")
       end
 
       it "assigns the requested category as @category" do
