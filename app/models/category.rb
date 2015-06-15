@@ -6,6 +6,9 @@ class Category
   field :type, type: String
   field :system, type: Mongoid::Boolean
 
+  # embeds_many :sub_categories
+  # has_many :transactions
+
   validates_presence_of :name, :type
   attr_accessor :type_description
 
