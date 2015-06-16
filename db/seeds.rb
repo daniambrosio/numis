@@ -30,38 +30,46 @@ end
 
 # ------
 puts "Adicionar Categoria Nao Classificado"
-category = CategoryUnclassified.find_or_create_by(
-  name: "Não Classificado"
+category = CategoryUnclassified.first_or_create!(
+  name: "Não Classificado",
+  type: "U",
+  system: true
 )
-# category.sub_categories.find_or_create_by(name: "Classificar", system: true)
+# category.sub_categories.first_or_create!(name: "Classificar", system: true)
 
 # ------
 puts "Adicionar Categoria Entre Contas"
-category = CategoryTransfer.find_or_create_by(
-  name: "Lançamento Entre Contas"
+category = CategoryTransfer.first_or_create!(
+  name: "Lançamento Entre Contas",
+  type: "T",
+  system: true
 )
-# category.sub_categories.find_or_create_by(name: "Pagamento de Cartão", system: true)
-# category.sub_categories.find_or_create_by(name: "Resgate", system: true)
-# category.sub_categories.find_or_create_by(name: "Saque", system: true)
-# category.sub_categories.find_or_create_by(name: "Aplicação", system: true)
-# category.sub_categories.find_or_create_by(name: "Transferência", system: true)
+# category.sub_categories.first_or_create!(name: "Pagamento de Cartão", system: true)
+# category.sub_categories.first_or_create!(name: "Resgate", system: true)
+# category.sub_categories.first_or_create!(name: "Saque", system: true)
+# category.sub_categories.first_or_create!(name: "Aplicação", system: true)
+# category.sub_categories.first_or_create!(name: "Transferência", system: true)
 
 
 # ------
 puts "Adicionar Categorias de Renda"
-category = CategoryIncome.find_or_create_by(
-  name: "Renda"
+category = CategoryIncome.first_or_create!(
+  name: "Renda",
+  type: "I",
+  system: true
 )
 
 
 # ------
 puts "Adicionar Categorias de Despesas"
 puts "Entretenimento"
-category = CategoryExpense.find_or_create_by(
-  name: "Entretenimento"
+category = CategoryExpense.first_or_create!(
+  name: "Entretenimento",
+  type: "E",
+  system: true
 )
-# category.sub_categories.find_or_create_by(name: "Artes", system: true)
-# category.sub_categories.find_or_create_by(name: "Música", system: true)
-# category.sub_categories.find_or_create_by(name: "Filmes e DVDs", system: true)
-# category.sub_categories.find_or_create_by(name: "Jornais e Revistas", system: true)
-# category.sub_categories.find_or_create_by(name: "Games", system: true)
+# category.sub_categories.first_or_create!(name: "Artes", system: true)
+# category.sub_categories.first_or_create!(name: "Música", system: true)
+# category.sub_categories.first_or_create!(name: "Filmes e DVDs", system: true)
+# category.sub_categories.first_or_create!(name: "Jornais e Revistas", system: true)
+# category.sub_categories.first_or_create!(name: "Games", system: true)

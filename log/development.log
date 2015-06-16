@@ -1,19 +1,629 @@
-2015-06-04 10:26:10.009810 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
-2015-06-04 10:26:12.001505 D [10466:70167250200280] SemanticLogger -- Flushing appenders with 0 log messages on the queue
-2015-06-04 10:26:12.001673 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
-2015-06-04 10:26:12.001826 D [10466:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
-2015-06-04 10:26:14.724238 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
-2015-06-04 10:26:15.562915 D [10467:70235634132700] SemanticLogger -- Flushing appenders with 0 log messages on the queue
-2015-06-04 10:26:15.563107 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
-2015-06-04 10:26:15.563166 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
-2015-06-04 10:26:15.563256 D [10467:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
-2015-06-04 10:26:18.258313 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
-2015-06-04 10:26:19.123474 D [10468:70279435249360] SemanticLogger -- Flushing appenders with 0 log messages on the queue
-2015-06-04 10:26:19.123654 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
-2015-06-04 10:26:19.123711 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
-2015-06-04 10:26:19.123818 D [10468:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
-2015-06-04 10:26:21.810723 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
-2015-06-04 10:26:22.991730 D [10469:70156760245980] SemanticLogger -- Flushing appenders with 0 log messages on the queue
-2015-06-04 10:26:22.991985 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
-2015-06-04 10:26:22.992039 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
-2015-06-04 10:26:22.992143 D [10469:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-07 23:00:17.691181 D [40892:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-07 23:00:19.141171 [1m[1mW[0m [40892:70212330586620] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-07 23:23:10.041416 D [41230:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-07 23:23:11.436246 [1m[1mW[0m [41230:70277233246720] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-07 23:23:12.316479 D [41230:70277233246720] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-07 23:23:12.316639 D [41230:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-07 23:23:12.316712 D [41230:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-07 23:23:12.316792 D [41230:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-07 23:23:30.641202 D [41231:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-07 23:23:31.218498 [1m[1mW[0m [41231:70187831656960] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-07 23:23:31.732801 D [41231:70187831656960] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-07 23:23:31.732976 D [41231:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-07 23:23:31.733040 D [41231:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-07 23:23:31.733131 D [41231:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-08 00:07:52.840397 D [41473:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-08 00:07:54.271693 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-08 00:11:21.574506 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:11:21.574540 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:11:21.574981 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-08 00:11:21 -0300
+2015-06-08 00:11:21.599685 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-08 00:11:21.684311 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (5.8ms)
+2015-06-08 00:11:22.217702 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (1.8ms)
+2015-06-08 00:11:22.219714 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.4ms)
+2015-06-08 00:11:22.219963 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 620ms (Views: 588.4ms)
+2015-06-08 00:13:05.287430 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:13:05.287460 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:13:05.287559 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-08 00:13:05 -0300
+2015-06-08 00:13:05.316062 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-08 00:13:05.358646 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-08 00:13:05.378679 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (1.0ms)
+2015-06-08 00:13:05.585125 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-08 00:13:05.586505 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.0ms)
+2015-06-08 00:13:05.586737 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 228ms (Views: 217.8ms)
+2015-06-08 00:22:00.816525 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:22:00.816570 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:22:00.816766 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-08 00:22:00 -0300
+2015-06-08 00:22:00.822628 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-08 00:22:00.833105 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (1.3ms)
+2015-06-08 00:22:01.060602 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.7ms)
+2015-06-08 00:22:01.062025 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.0ms)
+2015-06-08 00:22:01.100855 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 500 Internal Server Error in 278ms
+2015-06-08 00:22:01.102367 [31m[1mF[0m [41473:70294153069060] [31mRails[0m -- 
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:"pt-BR"], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee, :haml]}. Searched in:
+  * "/Users/danielrodriguesambrosio/dev/projects/numis/app/views"
+  * "/Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views"
+  * "/Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/kaminari-0.16.3/app/views"
+  * "/Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/devise-3.4.1/app/views"
+):
+    33:                 <li class="muted">·</li>
+    34:                 <li><a href="https://bitbucket.org/daniambrosio/numis-mongo">Numis Mongo</a></li>
+    35:               </ul>
+    36:               <%= render 'layouts/footer' %>
+    37:             </div>
+    38:           </footer>
+    39:         </div>
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___3399056422284727508_70294166033240'
+
+
+2015-06-08 00:22:01.810386 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+2015-06-08 00:22:01.835488 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+2015-06-08 00:22:01.857188 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+2015-06-08 00:22:01.857241 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.0ms)
+2015-06-08 00:22:59.990352 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:22:59.990374 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:22:59.990480 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-08 00:22:59 -0300
+2015-06-08 00:22:59.995419 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-08 00:23:00.006329 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (1.1ms)
+2015-06-08 00:23:00.219594 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.5ms)
+2015-06-08 00:23:00.220852 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.0ms)
+2015-06-08 00:23:00.222284 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.3ms)
+2015-06-08 00:23:00.222453 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 227ms (Views: 226.3ms)
+2015-06-08 00:27:19.052035 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:27:19.052060 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:27:19.052148 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/users/sign_in" for 127.0.0.1 at 2015-06-08 00:27:19 -0300
+2015-06-08 00:27:19.095133 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#new as HTML
+2015-06-08 00:27:19.408960 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/shared/_links.erb (13.4ms)
+2015-06-08 00:27:19.409037 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/sessions/new.html.erb within layouts/application (273.3ms)
+2015-06-08 00:27:19.620762 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.5ms)
+2015-06-08 00:27:19.622154 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:27:19.623292 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-08 00:27:19.623467 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 528ms (Views: 519.8ms)
+2015-06-08 00:27:29.320521 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:27:29.320545 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:27:29.320658 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started POST "/users/sign_in" for 127.0.0.1 at 2015-06-08 00:27:29 -0300
+2015-06-08 00:27:29.328468 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#create as HTML
+2015-06-08 00:27:29.341413 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"k34FR0+1feqktg5zGNl+5Ve5e+gcyaf5t9v2aHdsODcq0+uPqa+lgevkliMv/fI8OtyecvLAVcQalU0O9Exn+g==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+2015-06-08 00:27:29.380602 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 401 Unauthorized in 39ms
+2015-06-08 00:27:29.382115 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#new as HTML
+2015-06-08 00:27:29.382142 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"k34FR0+1feqktg5zGNl+5Ve5e+gcyaf5t9v2aHdsODcq0+uPqa+lgevkliMv/fI8OtyecvLAVcQalU0O9Exn+g==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+2015-06-08 00:27:29.504467 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/shared/_links.erb (14.0ms)
+2015-06-08 00:27:29.504554 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/sessions/new.html.erb within layouts/application (26.3ms)
+2015-06-08 00:27:29.727056 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.5ms)
+2015-06-08 00:27:29.728615 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:27:29.730654 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.1ms)
+2015-06-08 00:27:29.730881 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 349ms (Views: 266.9ms)
+2015-06-08 00:29:06.779913 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:29:06.779939 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:29:06.780043 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started POST "/users/sign_in" for 127.0.0.1 at 2015-06-08 00:29:06 -0300
+2015-06-08 00:29:06.785399 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#create as HTML
+2015-06-08 00:29:06.785428 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"k34FR0+1feqktg5zGNl+5Ve5e+gcyaf5t9v2aHdsODcq0+uPqa+lgevkliMv/fI8OtyecvLAVcQalU0O9Exn+g==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+2015-06-08 00:29:06.787675 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 401 Unauthorized in 2ms
+2015-06-08 00:29:06.788458 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#new as HTML
+2015-06-08 00:29:06.788482 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"k34FR0+1feqktg5zGNl+5Ve5e+gcyaf5t9v2aHdsODcq0+uPqa+lgevkliMv/fI8OtyecvLAVcQalU0O9Exn+g==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+2015-06-08 00:29:06.886646 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/shared/_links.erb (9.7ms)
+2015-06-08 00:29:06.886864 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered devise/sessions/new.html.erb within layouts/application (21.6ms)
+2015-06-08 00:29:07.147518 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.7ms)
+2015-06-08 00:29:07.151815 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.2ms)
+2015-06-08 00:29:07.153998 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.1ms)
+2015-06-08 00:29:07.154242 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 366ms (Views: 302.3ms)
+2015-06-08 00:29:28.183857 D [41616:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-08 00:29:30.689164 [1m[1mW[0m [41616:70236363555320] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-08 00:29:32.778454 D [41616:70236363555320] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-08 00:29:32.778616 D [41616:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-08 00:29:32.778798 D [41616:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-08 00:30:12.551665 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:30:12.551704 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:30:12.551793 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started POST "/users/sign_in" for 127.0.0.1 at 2015-06-08 00:30:12 -0300
+2015-06-08 00:30:12.559725 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by Devise::SessionsController#create as HTML
+2015-06-08 00:30:12.559754 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"LaiuqdJh8CDKLqpXt5onCaKH1InGZm5Ga9zC5PDfZSeUBUBhNHsoS4V8MgeAvqvQz+IxEyhvnHvGknmCc/866g==", "user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+2015-06-08 00:30:12.742589 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Redirected to http://localhost:3000/
+2015-06-08 00:30:12.742833 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 302 Found in 183ms
+2015-06-08 00:30:12.747810 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:30:12.747830 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:30:12.747893 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-08 00:30:12 -0300
+2015-06-08 00:30:12.771256 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-08 00:30:12.784302 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (0.5ms)
+2015-06-08 00:30:12.997705 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-08 00:30:12.999270 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:30:13.000528 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-08 00:30:13.000703 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 229ms (Views: 228.7ms)
+2015-06-08 00:33:10.118864 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:33:10.118893 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:33:10.118988 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-08 00:33:10 -0300
+2015-06-08 00:33:10.125854 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-08 00:33:10.134432 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (0.0ms)
+2015-06-08 00:33:10.351985 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-08 00:33:10.353178 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:33:10.354797 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-08 00:33:10.355087 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 229ms (Views: 228.4ms)
+2015-06-08 00:34:39.107749 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:34:39.107776 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:34:39.107883 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-08 00:34:39 -0300
+2015-06-08 00:34:39.114612 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-08 00:34:39.122828 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (0.1ms)
+2015-06-08 00:34:39.456017 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-08 00:34:39.457440 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:34:39.458683 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-08 00:34:39.458875 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 344ms (Views: 343.5ms)
+2015-06-08 00:36:52.799823 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:36:52.799851 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:36:52.799971 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-08 00:36:52 -0300
+2015-06-08 00:36:52.806636 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-08 00:36:52.869321 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (0.1ms)
+2015-06-08 00:36:53.097752 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_navigation.html.erb (1.0ms)
+2015-06-08 00:36:53.099482 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-08 00:36:53.113137 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.1ms)
+2015-06-08 00:36:53.113389 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 307ms (Views: 306.0ms)
+2015-06-08 00:37:48.238810 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:37:48.238842 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:37:48.239025 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2015-06-08 00:37:48 -0300
+2015-06-08 00:37:48.331716 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-08 00:37:48.522851 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-08 00:37:48.530366 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-08 00:37:48.542778 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-08 00:37:48.560449 [1m[1mW[0m [41473:70294153069060] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-08 00:37:48.838590 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (51.5ms)
+2015-06-08 00:37:53.106190 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (5.8ms)
+2015-06-08 00:37:53.106255 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (10.8ms)
+2015-06-08 00:37:53.115396 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.8ms)
+2015-06-08 00:37:53.121688 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+2015-06-08 00:37:53.122047 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 4790ms (Views: 4391.0ms)
+2015-06-08 00:37:53.123214 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:37:53.123229 [32m[1mD[0m [41473:70294153069060] [32mRails[0m -- 
+2015-06-08 00:37:53.123295 [36m[1mI[0m [41473:70294153069060] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2015-06-08 00:37:53 -0300
+2015-06-08 00:37:53.128435 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-08 00:37:53.168451 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.5ms)
+2015-06-08 00:37:53.404212 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.1ms)
+2015-06-08 00:37:53.404275 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (6.2ms)
+2015-06-08 00:37:53.412888 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.6ms)
+2015-06-08 00:37:53.417275 [36m[1mI[0m [41473:70294153069060] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (1.3ms)
+2015-06-08 00:37:53.417549 [36m[1mI[0m [41473:70294153069060] [36mActionController[0m -- Completed 200 OK in 289ms (Views: 275.5ms)
+2015-06-09 00:14:14.626967 D [42178:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-09 00:14:16.344424 [1m[1mW[0m [42178:70206555030020] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-09 00:16:50.053796 D [42178:70206555030020] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-09 00:16:50.053954 D [42178:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-09 00:16:50.054135 D [42178:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-10 00:34:20.864333 D [46603:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-10 00:34:21.508634 [1m[1mW[0m [46603:70299492418040] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-10 00:34:23.686013 D [46603:70299492418040] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-10 00:34:23.686202 D [46603:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-10 00:34:23.686343 D [46603:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-11 00:46:13.752629 D [47908:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-11 00:46:14.374612 [1m[1mW[0m [47908:70137781027320] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-11 00:46:53.385227 D [47908:70137781027320] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-11 00:46:53.385395 D [47908:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-11 00:46:53.385554 D [47908:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-11 00:47:36.412022 D [47914:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-11 00:47:37.024435 [1m[1mW[0m [47914:70113277903360] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-11 00:47:45.285858 D [47914:70113277903360] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-11 00:47:45.286098 D [47914:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-11 00:47:45.286262 D [47914:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-11 00:50:32.929446 D [47955:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-11 00:50:33.515359 [1m[1mW[0m [47955:70255083127300] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-11 00:50:33.582254 D [47955:70255083127300] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-11 00:50:33.582414 D [47955:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-11 00:50:33.582491 D [47955:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-11 00:50:33.582680 D [47955:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-11 00:50:55.825220 D [47957:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-11 00:50:56.428741 [1m[1mW[0m [47957:70153077654020] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-11 00:50:56.548287 D [47957:70153077654020] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-11 00:50:56.548476 D [47957:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-11 00:50:56.548635 D [47957:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-11 01:02:43.415369 D [48034:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-11 01:02:44.809929 [1m[1mW[0m [48034:70104008491520] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-11 01:02:45.119649 D [48034:70104008491520] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-11 01:02:45.119776 D [48034:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-11 01:02:45.119967 D [48034:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-14 23:26:41.025550 D [49891:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-14 23:26:41.619489 [1m[1mW[0m [49891:70110920573440] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-14 23:26:41.648013 D [49891:70110920573440] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-14 23:26:41.648126 D [49891:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-14 23:26:41.648179 D [49891:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-14 23:26:41.648281 D [49891:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-14 23:27:47.376616 D [49904:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-14 23:27:47.974830 [1m[1mW[0m [49904:70255208948220] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-14 23:27:48.005795 D [49904:70255208948220] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-14 23:27:48.005922 D [49904:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-14 23:27:48.005966 D [49904:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-14 23:27:48.006058 D [49904:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-14 23:31:20.566009 D [49934:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-14 23:31:21.166361 [1m[1mW[0m [49934:70272258802180] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-14 23:31:21.203846 [1m[1mW[0m [49934:70272258802180] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-14 23:31:21.206187 [32m[1mD[0m [49934:70272258802180] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9000ms
+2015-06-14 23:31:21.206829 [32m[1mD[0m [49934:70272258802180] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Não Classificado", "_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4850ms
+2015-06-14 23:31:21.232237 [1m[1mW[0m [49934:70272258802180] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-14 23:31:21.233500 [32m[1mD[0m [49934:70272258802180] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Lançamento Entre Contas", "_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4720ms
+2015-06-14 23:31:21.235992 [1m[1mW[0m [49934:70272258802180] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-14 23:31:21.237639 [32m[1mD[0m [49934:70272258802180] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Renda", "_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5670ms
+2015-06-14 23:31:21.240139 [1m[1mW[0m [49934:70272258802180] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-14 23:31:21.242785 D [49934:70272258802180] SemanticLogger -- Flushing appenders with 1 log messages on the queue
+2015-06-14 23:31:21.241359 [32m[1mD[0m [49934:70272258802180] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Entretenimento", "_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5040ms
+2015-06-14 23:31:21.242968 D [49934:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-14 23:31:21.243010 D [49934:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-14 23:31:21.243075 D [49934:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-15 00:19:22.274631 D [49999:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-15 00:19:23.174338 [1m[1mW[0m [49999:70103547118080] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-15 00:20:55.141858 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:20:55.141888 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:20:55.142285 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-15 00:20:55 -0300
+2015-06-15 00:20:55.228921 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-15 00:20:55.324281 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9490ms
+2015-06-15 00:20:55.324754 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3520ms
+2015-06-15 00:20:55.325096 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (6.1ms)
+2015-06-15 00:20:56.073434 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_navigation.html.erb (2.1ms)
+2015-06-15 00:20:56.076492 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.5ms)
+2015-06-15 00:20:56.078566 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.2ms)
+2015-06-15 00:20:56.078867 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 850ms (Views: 817.7ms)
+2015-06-15 00:21:06.280384 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:06.280425 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:06.280560 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category_unclassified" for 127.0.0.1 at 2015-06-15 00:21:06 -0300
+2015-06-15 00:21:06.406635 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:21:06.406666 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"model_name"=>"category_unclassified"}
+2015-06-15 00:21:06.408571 [1m[1mW[0m [49999:70103547118080] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-15 00:21:06.439718 [1m[1mW[0m [49999:70103547118080] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-15 00:21:06.442689 [1m[1mW[0m [49999:70103547118080] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-15 00:21:06.444933 [1m[1mW[0m [49999:70103547118080] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-15 00:21:06.698583 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4500ms
+2015-06-15 00:21:06.699164 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}} runtime: 0.3420ms
+2015-06-15 00:21:06.704239 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4110ms
+2015-06-15 00:21:06.704648 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (35.0ms)
+2015-06-15 00:21:07.316689 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.3ms)
+2015-06-15 00:21:07.316957 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (14.1ms)
+2015-06-15 00:21:07.329581 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (9.2ms)
+2015-06-15 00:21:07.343529 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (10.7ms)
+2015-06-15 00:21:07.343803 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 937ms (Views: 709.2ms)
+2015-06-15 00:21:17.876350 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:17.876395 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:17.876640 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category_expense?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:21:17 -0300
+2015-06-15 00:21:17.903174 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:21:17.903209 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category_expense"}
+2015-06-15 00:21:17.942869 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4520ms
+2015-06-15 00:21:17.943493 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 0.4570ms
+2015-06-15 00:21:17.951028 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4450ms
+2015-06-15 00:21:17.952127 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (21.0ms)
+2015-06-15 00:21:17.961897 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 59ms (Views: 45.9ms)
+2015-06-15 00:21:21.231677 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:21.231709 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:21.231896 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:21:21 -0300
+2015-06-15 00:21:21.241592 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:21:21.241623 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category"}
+2015-06-15 00:21:21.275994 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.8640ms
+2015-06-15 00:21:21.276590 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.4360ms
+2015-06-15 00:21:21.280140 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3050ms
+2015-06-15 00:21:21.280483 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (20.3ms)
+2015-06-15 00:21:21.284842 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 43ms (Views: 35.8ms)
+2015-06-15 00:21:58.667270 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:58.667316 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:21:58.667466 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category_expense?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:21:58 -0300
+2015-06-15 00:21:58.676545 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:21:58.676572 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category_expense"}
+2015-06-15 00:21:58.709078 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.5980ms
+2015-06-15 00:21:58.709963 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 0.6140ms
+2015-06-15 00:21:58.716626 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 1.1110ms
+2015-06-15 00:21:58.717230 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (21.9ms)
+2015-06-15 00:21:58.725244 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 49ms (Views: 38.4ms)
+2015-06-15 00:26:11.400321 D [50027:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-15 00:26:11.987799 [1m[1mW[0m [50027:70167493476860] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-15 00:26:12.023525 [1m[1mW[0m [50027:70167493476860] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-15 00:26:12.026089 [32m[1mD[0m [50027:70167493476860] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8940ms
+2015-06-15 00:26:12.026584 [32m[1mD[0m [50027:70167493476860] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Não Classificado", "_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3750ms
+2015-06-15 00:26:12.087497 [1m[1mW[0m [50027:70167493476860] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-15 00:26:12.088582 [32m[1mD[0m [50027:70167493476860] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Lançamento Entre Contas", "_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4180ms
+2015-06-15 00:26:12.090868 [1m[1mW[0m [50027:70167493476860] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-15 00:26:12.091845 [32m[1mD[0m [50027:70167493476860] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Renda", "_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3960ms
+2015-06-15 00:26:12.093899 [1m[1mW[0m [50027:70167493476860] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-15 00:26:12.096132 D [50027:70167493476860] SemanticLogger -- Flushing appenders with 1 log messages on the queue
+2015-06-15 00:26:12.094808 [32m[1mD[0m [50027:70167493476860] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Entretenimento", "_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3430ms
+2015-06-15 00:26:12.096224 D [50027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-15 00:26:12.096257 D [50027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-15 00:26:12.096305 D [50027:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-15 00:28:19.563545 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:28:19.563569 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:28:19.563731 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:28:19 -0300
+2015-06-15 00:28:19.573154 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-15 00:28:19.573190 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]"}
+2015-06-15 00:28:19.582270 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.0510ms
+2015-06-15 00:28:19.585353 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 2.8840ms
+2015-06-15 00:28:19.586622 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5250ms
+2015-06-15 00:28:19.588812 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 1.1280ms
+2015-06-15 00:28:19.591499 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.6970ms
+2015-06-15 00:28:19.592586 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryIncome"]}}} runtime: 0.5260ms
+2015-06-15 00:28:19.593786 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6240ms
+2015-06-15 00:28:19.594661 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryTransfer"]}}} runtime: 0.4500ms
+2015-06-15 00:28:19.595875 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5640ms
+2015-06-15 00:28:19.596822 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}} runtime: 0.4620ms
+2015-06-15 00:28:19.597791 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4770ms
+2015-06-15 00:28:19.599377 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"identities", :query=>{}} runtime: 1.0650ms
+2015-06-15 00:28:19.600743 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=identities selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5120ms
+2015-06-15 00:28:19.601844 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"users", :query=>{}} runtime: 0.5680ms
+2015-06-15 00:28:19.649085 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=users selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 46.3990ms
+2015-06-15 00:28:19.729831 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (26.7ms)
+2015-06-15 00:28:19.731273 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 158ms (Views: 81.7ms)
+2015-06-15 00:31:02.146113 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:02.146141 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:02.146353 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:31:02 -0300
+2015-06-15 00:31:02.155290 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:31:02.155323 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category"}
+2015-06-15 00:31:02.187141 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.5440ms
+2015-06-15 00:31:02.189358 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 1.9030ms
+2015-06-15 00:31:02.198476 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4560ms
+2015-06-15 00:31:02.200337 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (27.3ms)
+2015-06-15 00:31:02.218570 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 63ms (Views: 57.0ms)
+2015-06-15 00:31:11.333874 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:11.333908 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:11.334068 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category_income?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:31:11 -0300
+2015-06-15 00:31:11.343518 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:31:11.343549 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category_income"}
+2015-06-15 00:31:11.379554 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.6240ms
+2015-06-15 00:31:11.380073 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryIncome"]}}} runtime: 0.3680ms
+2015-06-15 00:31:11.385869 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.8100ms
+2015-06-15 00:31:11.386475 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (21.6ms)
+2015-06-15 00:31:11.393147 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 50ms (Views: 40.2ms)
+2015-06-15 00:31:17.811679 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:17.811707 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:17.811892 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:31:17 -0300
+2015-06-15 00:31:17.821699 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:31:17.821729 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category"}
+2015-06-15 00:31:17.854595 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4770ms
+2015-06-15 00:31:17.855430 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.6740ms
+2015-06-15 00:31:17.858966 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3230ms
+2015-06-15 00:31:17.859328 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (19.3ms)
+2015-06-15 00:31:17.865183 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 43ms (Views: 37.9ms)
+2015-06-15 00:31:35.399394 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:35.399418 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:31:35.399525 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-15 00:31:35 -0300
+2015-06-15 00:31:35.407736 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-15 00:31:35.419539 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4730ms
+2015-06-15 00:31:35.419893 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (1.2ms)
+2015-06-15 00:31:35.643275 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.5ms)
+2015-06-15 00:31:35.645453 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-15 00:31:35.647481 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-15 00:31:35.647653 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 240ms (Views: 238.8ms)
+2015-06-15 00:33:26.046202 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:26.046222 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:26.046326 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/categories/new" for 127.0.0.1 at 2015-06-15 00:33:26 -0300
+2015-06-15 00:33:26.051333 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#new as HTML
+2015-06-15 00:33:26.137644 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/_form.html.erb (40.3ms)
+2015-06-15 00:33:26.137803 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/new.html.erb within layouts/application (43.2ms)
+2015-06-15 00:33:26.343376 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_navigation.html.erb (1.4ms)
+2015-06-15 00:33:26.346476 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.7ms)
+2015-06-15 00:33:26.349320 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.3ms)
+2015-06-15 00:33:26.349596 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 298ms (Views: 297.5ms)
+2015-06-15 00:33:33.246925 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:33.246948 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:33.247061 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started POST "/categories" for 127.0.0.1 at 2015-06-15 00:33:33 -0300
+2015-06-15 00:33:33.254616 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#create as HTML
+2015-06-15 00:33:33.254671 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"utf8"=>"✓", "authenticity_token"=>"AhebbQmf7UAzda0ZIiq3EtLlbjmom5Qdy09OVDW8i9HX+sVtehRem6HfYyxXBglwu071Fyd6H7brP2T6oL89Pg==", "category"=>{"name"=>"ddddd", "type"=>"dd"}, "commit"=>"Criar Category"}
+2015-06-15 00:33:33.257944 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8000ms
+2015-06-15 00:33:33.318165 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 INSERT       database=numis_development collection=categories documents=[{"_id"=><BSON::ObjectId:0x70103603126560 data=557e478d4d6163c34f000000>, "_type"=>"Category", "name"=>"ddddd", "type"=>"dd", "updated_at"=>2015-06-15 03:33:33 UTC, "created_at"=>2015-06-15 03:33:33 UTC}] flags=[]
+2015-06-15 00:33:33.318204 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --                          COMMAND      database=numis_development command={:getlasterror=>1, :w=>1} runtime: 59.9910ms
+2015-06-15 00:33:33.318841 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Redirected to http://localhost:3000/categories/557e478d4d6163c34f000000
+2015-06-15 00:33:33.318896 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 302 Found in 64ms
+2015-06-15 00:33:33.323680 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:33.323724 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:33.323819 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/categories/557e478d4d6163c34f000000" for 127.0.0.1 at 2015-06-15 00:33:33 -0300
+2015-06-15 00:33:33.338832 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#show as HTML
+2015-06-15 00:33:33.338852 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"id"=>"557e478d4d6163c34f000000"}
+2015-06-15 00:33:33.340751 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"_id"=><BSON::ObjectId:0x70103611775420 data=557e478d4d6163c34f000000>} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7640ms
+2015-06-15 00:33:33.367565 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/show.html.erb within layouts/application (0.9ms)
+2015-06-15 00:33:33.610145 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-15 00:33:33.611805 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-15 00:33:33.612996 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-15 00:33:33.613414 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 274ms (Views: 272.0ms)
+2015-06-15 00:33:41.664794 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:41.664815 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:41.664986 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-15 00:33:41 -0300
+2015-06-15 00:33:41.669755 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-15 00:33:41.680208 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5810ms
+2015-06-15 00:33:41.681075 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (2.4ms)
+2015-06-15 00:33:41.884916 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.5ms)
+2015-06-15 00:33:41.886488 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-15 00:33:41.888789 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-15 00:33:41.889001 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 219ms (Views: 218.6ms)
+2015-06-15 00:33:45.318377 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:45.318402 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:45.318535 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category" for 127.0.0.1 at 2015-06-15 00:33:45 -0300
+2015-06-15 00:33:45.323487 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:33:45.323501 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"model_name"=>"category"}
+2015-06-15 00:33:45.341575 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.5860ms
+2015-06-15 00:33:45.374000 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.4720ms
+2015-06-15 00:33:45.378323 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4760ms
+2015-06-15 00:33:45.378731 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (46.1ms)
+2015-06-15 00:33:45.604222 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.8ms)
+2015-06-15 00:33:45.604275 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (6.8ms)
+2015-06-15 00:33:45.612851 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (5.5ms)
+2015-06-15 00:33:45.619981 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (4.2ms)
+2015-06-15 00:33:45.620353 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 297ms (Views: 293.9ms)
+2015-06-15 00:33:50.988982 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:50.989020 [32m[1mD[0m [49999:70103547118080] [32mRails[0m -- 
+2015-06-15 00:33:50.989205 [36m[1mI[0m [49999:70103547118080] [36mRails[0m -- Started GET "/admin/category_expense?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-06-15 00:33:50 -0300
+2015-06-15 00:33:50.997900 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Processing by RailsAdmin::MainController#index as HTML
+2015-06-15 00:33:50.997937 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m --   Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"category_expense"}
+2015-06-15 00:33:51.077642 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 44.4180ms
+2015-06-15 00:33:51.090772 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 12.8330ms
+2015-06-15 00:33:51.096135 [32m[1mD[0m [49999:70103547118080] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4640ms
+2015-06-15 00:33:51.096693 [36m[1mI[0m [49999:70103547118080] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (77.5ms)
+2015-06-15 00:33:51.102670 [36m[1mI[0m [49999:70103547118080] [36mActionController[0m -- Completed 200 OK in 105ms (Views: 96.1ms)
+2015-06-15 00:36:55.576028 D [49999:70103547118080] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-15 00:36:55.576252 D [49999:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-15 00:36:55.576428 D [49999:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-15 23:18:44.889712 D [51032:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-15 23:18:47.522088 [1m[1mW[0m [51032:70226545082880] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-15 23:20:42.281997 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:42.282033 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:42.282402 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-15 23:20:42 -0300
+2015-06-15 23:20:42.389888 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-15 23:20:42.462086 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (3.2ms)
+2015-06-15 23:20:43.057722 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_navigation.html.erb (2.2ms)
+2015-06-15 23:20:43.061011 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.7ms)
+2015-06-15 23:20:43.063455 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.4ms)
+2015-06-15 23:20:43.063795 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 200 OK in 674ms (Views: 668.0ms)
+2015-06-15 23:20:49.656055 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:49.656085 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:49.656169 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2015-06-15 23:20:49 -0300
+2015-06-15 23:20:49.825904 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-15 23:20:50.296131 [1m[1mW[0m [51032:70226545082880] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-15 23:20:50.303158 [1m[1mW[0m [51032:70226545082880] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-15 23:20:50.316076 [1m[1mW[0m [51032:70226545082880] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-15 23:20:50.319097 [1m[1mW[0m [51032:70226545082880] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-15 23:20:50.336250 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8430ms
+2015-06-15 23:20:50.336626 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.2790ms
+2015-06-15 23:20:50.337449 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3840ms
+2015-06-15 23:20:50.338270 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 0.3290ms
+2015-06-15 23:20:50.338967 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3050ms
+2015-06-15 23:20:50.339488 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryIncome"]}}} runtime: 0.2800ms
+2015-06-15 23:20:50.340155 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2910ms
+2015-06-15 23:20:50.340672 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryTransfer"]}}} runtime: 0.2800ms
+2015-06-15 23:20:50.341377 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3130ms
+2015-06-15 23:20:50.341911 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}} runtime: 0.2820ms
+2015-06-15 23:20:50.342572 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2970ms
+2015-06-15 23:20:50.343346 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"identities", :query=>{}} runtime: 0.5570ms
+2015-06-15 23:20:50.344338 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=identities selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3170ms
+2015-06-15 23:20:50.344976 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"users", :query=>{}} runtime: 0.3170ms
+2015-06-15 23:20:50.345854 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=users selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4630ms
+2015-06-15 23:20:50.417052 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (41.0ms)
+2015-06-15 23:20:51.056050 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (7.5ms)
+2015-06-15 23:20:51.056116 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (13.8ms)
+2015-06-15 23:20:51.066546 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (6.8ms)
+2015-06-15 23:20:51.073955 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (4.0ms)
+2015-06-15 23:20:51.074215 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 200 OK in 1248ms (Views: 727.9ms)
+2015-06-15 23:20:51.075338 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:51.075348 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-15 23:20:51.075396 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2015-06-15 23:20:51 -0300
+2015-06-15 23:20:51.082202 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-15 23:20:51.086823 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.5550ms
+2015-06-15 23:20:51.088079 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8410ms
+2015-06-15 23:20:51.088992 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 0.4190ms
+2015-06-15 23:20:51.090189 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4110ms
+2015-06-15 23:20:51.090858 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryIncome"]}}} runtime: 0.3690ms
+2015-06-15 23:20:51.091839 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3130ms
+2015-06-15 23:20:51.092415 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryTransfer"]}}} runtime: 0.3160ms
+2015-06-15 23:20:51.093398 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6440ms
+2015-06-15 23:20:51.093994 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}} runtime: 0.3050ms
+2015-06-15 23:20:51.094645 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3390ms
+2015-06-15 23:20:51.095182 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"identities", :query=>{}} runtime: 0.2970ms
+2015-06-15 23:20:51.095925 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=identities selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4210ms
+2015-06-15 23:20:51.096428 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"users", :query=>{}} runtime: 0.2680ms
+2015-06-15 23:20:51.097261 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=users selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5070ms
+2015-06-15 23:20:51.123596 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.2ms)
+2015-06-15 23:20:51.334818 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.6ms)
+2015-06-15 23:20:51.334880 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (5.5ms)
+2015-06-15 23:20:51.342527 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.8ms)
+2015-06-15 23:20:51.347247 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (1.7ms)
+2015-06-15 23:20:51.347560 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 200 OK in 265ms (Views: 249.8ms)
+2015-06-16 00:04:18.909649 D [51505:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-16 00:04:21.267702 [1m[1mW[0m [51505:70362453115400] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-16 00:04:21.325411 [1m[1mW[0m [51505:70362453115400] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-16 00:04:21.327975 [32m[1mD[0m [51505:70362453115400] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9510ms
+2015-06-16 00:04:21.328741 [32m[1mD[0m [51505:70362453115400] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Não Classificado", "_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5730ms
+2015-06-16 00:04:21.602736 [1m[1mW[0m [51505:70362453115400] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-16 00:04:21.604231 [32m[1mD[0m [51505:70362453115400] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Lançamento Entre Contas", "_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5260ms
+2015-06-16 00:04:21.606776 [1m[1mW[0m [51505:70362453115400] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-16 00:04:21.607908 [32m[1mD[0m [51505:70362453115400] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Renda", "_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4760ms
+2015-06-16 00:04:21.610371 [1m[1mW[0m [51505:70362453115400] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-16 00:04:21.613098 D [51505:70362453115400] SemanticLogger -- Flushing appenders with 1 log messages on the queue
+2015-06-16 00:04:21.611504 [32m[1mD[0m [51505:70362453115400] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"name"=>"Entretenimento", "_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4680ms
+2015-06-16 00:04:21.613293 D [51505:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-16 00:04:21.613377 D [51505:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-16 00:04:21.613485 D [51505:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-16 00:47:06.718920 D [51574:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-16 00:47:07.974189 [1m[1mW[0m [51574:70110996201980] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-16 00:47:08.019258 [1m[1mW[0m [51574:70110996201980] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-16 00:47:08.021672 [32m[1mD[0m [51574:70110996201980] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9560ms
+2015-06-16 00:47:08.022423 [32m[1mD[0m [51574:70110996201980] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5930ms
+2015-06-16 00:47:08.162445 D [51574:70110996201980] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-16 00:47:08.162596 D [51574:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-16 00:47:08.162742 D [51574:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-16 00:50:46.603836 D [51637:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-16 00:50:47.189159 [1m[1mW[0m [51637:70331809473020] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-16 00:50:47.223613 [1m[1mW[0m [51637:70331809473020] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-16 00:50:47.225781 [32m[1mD[0m [51637:70331809473020] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8640ms
+2015-06-16 00:50:47.226384 [32m[1mD[0m [51637:70331809473020] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4540ms
+2015-06-16 00:50:47.231109 [32m[1mD[0m [51637:70331809473020] [32mMoped[0m --   MOPED: 127.0.0.1:27017 INSERT       database=numis_development collection=categories documents=[{"_id"=><BSON::ObjectId:0x70331813868060 data=557f9d174d6163c9b5000000>, "_type"=>"CategoryUnclassified", "name"=>"Não Classificado", "type"=>"U", "system"=>true, "updated_at"=>2015-06-16 03:50:47 UTC, "created_at"=>2015-06-16 03:50:47 UTC}] flags=[]
+2015-06-16 00:50:47.231138 [32m[1mD[0m [51637:70331809473020] [32mMoped[0m --                          COMMAND      database=numis_development command={:getlasterror=>1, :w=>1} runtime: 0.5650ms
+2015-06-16 00:50:47.252826 [1m[1mW[0m [51637:70331809473020] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-16 00:50:47.254020 [32m[1mD[0m [51637:70331809473020] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5650ms
+2015-06-16 00:50:47.279996 D [51637:70331809473020] SemanticLogger -- Flushing appenders with 0 log messages on the queue
+2015-06-16 00:50:47.280178 D [51637:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-16 00:50:47.280233 D [51637:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-16 00:50:47.280374 D [51637:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-16 00:52:12.103210 D [51663:SemanticLogger::AppenderThread] SemanticLogger -- V2.14.0 Appender thread active
+2015-06-16 00:52:12.683785 [1m[1mW[0m [51663:70138317816320] [1mMongoid[0m -- Overwriting existing field email in class User.
+2015-06-16 00:52:12.721249 [1m[1mW[0m [51663:70138317816320] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryUnclassified.page.
+2015-06-16 00:52:12.723593 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9530ms
+2015-06-16 00:52:12.724707 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.9130ms
+2015-06-16 00:52:12.726126 [1m[1mW[0m [51663:70138317816320] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryTransfer.page.
+2015-06-16 00:52:12.727140 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4530ms
+2015-06-16 00:52:12.730494 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 INSERT       database=numis_development collection=categories documents=[{"_id"=><BSON::ObjectId:0x70138318182980 data=557f9d6c4d6163c9cf000000>, "_type"=>"CategoryTransfer", "name"=>"Lançamento Entre Contas", "type"=>"T", "system"=>true, "updated_at"=>2015-06-16 03:52:12 UTC, "created_at"=>2015-06-16 03:52:12 UTC}] flags=[]
+2015-06-16 00:52:12.730554 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --                          COMMAND      database=numis_development command={:getlasterror=>1, :w=>1} runtime: 0.5050ms
+2015-06-16 00:52:12.777286 [1m[1mW[0m [51663:70138317816320] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryIncome.page.
+2015-06-16 00:52:12.778814 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8470ms
+2015-06-16 00:52:12.781340 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 INSERT       database=numis_development collection=categories documents=[{"_id"=><BSON::ObjectId:0x70138311774040 data=557f9d6c4d6163c9cf000001>, "_type"=>"CategoryIncome", "name"=>"Renda", "type"=>"I", "system"=>true, "updated_at"=>2015-06-16 03:52:12 UTC, "created_at"=>2015-06-16 03:52:12 UTC}] flags=[]
+2015-06-16 00:52:12.781380 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --                          COMMAND      database=numis_development command={:getlasterror=>1, :w=>1} runtime: 1.3310ms
+2015-06-16 00:52:12.892024 [1m[1mW[0m [51663:70138317816320] [1mMongoid[0m -- Creating scope :page. Overwriting existing method CategoryExpense.page.
+2015-06-16 00:52:12.893673 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7150ms
+2015-06-16 00:52:12.895650 D [51663:70138317816320] SemanticLogger -- Flushing appenders with 2 log messages on the queue
+2015-06-16 00:52:12.895354 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --   MOPED: 127.0.0.1:27017 INSERT       database=numis_development collection=categories documents=[{"_id"=><BSON::ObjectId:0x70138311739220 data=557f9d6c4d6163c9cf000002>, "_type"=>"CategoryExpense", "name"=>"Entretenimento", "type"=>"E", "system"=>true, "updated_at"=>2015-06-16 03:52:12 UTC, "created_at"=>2015-06-16 03:52:12 UTC}] flags=[]
+2015-06-16 00:52:12.895395 [32m[1mD[0m [51663:70138317816320] [32mMoped[0m --                          COMMAND      database=numis_development command={:getlasterror=>1, :w=>1} runtime: 0.7150ms
+2015-06-16 00:52:12.895931 D [51663:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: Flushing appender: SemanticLogger::Appender::File
+2015-06-16 00:52:12.896058 D [51663:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread: All appenders flushed
+2015-06-16 00:52:12.896212 D [51663:SemanticLogger::AppenderThread] SemanticLogger -- Appender thread has stopped
+2015-06-16 00:52:21.164398 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:21.164434 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:21.164630 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/admin" for 127.0.0.1 at 2015-06-16 00:52:21 -0300
+2015-06-16 00:52:21.171233 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by RailsAdmin::MainController#dashboard as HTML
+2015-06-16 00:52:21.176199 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1560ms
+2015-06-16 00:52:21.176729 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{}} runtime: 0.4000ms
+2015-06-16 00:52:21.177771 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5090ms
+2015-06-16 00:52:21.179289 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryExpense"]}}} runtime: 0.4350ms
+2015-06-16 00:52:21.180195 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryExpense"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4280ms
+2015-06-16 00:52:21.181057 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryIncome"]}}} runtime: 0.4070ms
+2015-06-16 00:52:21.181862 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryIncome"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4360ms
+2015-06-16 00:52:21.182670 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryTransfer"]}}} runtime: 0.3330ms
+2015-06-16 00:52:21.183483 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryTransfer"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4250ms
+2015-06-16 00:52:21.184292 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"categories", :query=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}} runtime: 0.3610ms
+2015-06-16 00:52:21.185077 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={"$query"=>{"_type"=>{"$in"=>["CategoryUnclassified"]}}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4040ms
+2015-06-16 00:52:21.186133 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"identities", :query=>{}} runtime: 0.6760ms
+2015-06-16 00:52:21.186906 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=identities selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3110ms
+2015-06-16 00:52:21.187491 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 COMMAND      database=numis_development command={:count=>"users", :query=>{}} runtime: 0.3040ms
+2015-06-16 00:52:21.188637 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=users selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7480ms
+2015-06-16 00:52:21.271410 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (38.5ms)
+2015-06-16 00:52:21.504386 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_secondary_navigation.html.haml (3.4ms)
+2015-06-16 00:52:21.504445 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_navigation.html.haml (7.4ms)
+2015-06-16 00:52:21.512518 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (4.3ms)
+2015-06-16 00:52:21.517362 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/bundler/gems/rails_admin-50d71aab7a37/app/views/layouts/rails_admin/pjax.html.haml (1.7ms)
+2015-06-16 00:52:21.517715 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 200 OK in 346ms (Views: 328.6ms)
+2015-06-16 00:52:31.790672 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:31.790702 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:31.790830 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/" for 127.0.0.1 at 2015-06-16 00:52:31 -0300
+2015-06-16 00:52:31.796841 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by HomeController#index as HTML
+2015-06-16 00:52:31.856196 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered home/index.html.erb within layouts/application (0.1ms)
+2015-06-16 00:52:32.088781 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_navigation.html.erb (0.6ms)
+2015-06-16 00:52:32.090406 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_messages.html.erb (0.1ms)
+2015-06-16 00:52:32.092259 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered layouts/_footer.html.erb (0.0ms)
+2015-06-16 00:52:32.092455 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 200 OK in 296ms (Views: 295.3ms)
+2015-06-16 00:52:37.768322 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:37.768351 [32m[1mD[0m [51032:70226545082880] [32mRails[0m -- 
+2015-06-16 00:52:37.768468 [36m[1mI[0m [51032:70226545082880] [36mRails[0m -- Started GET "/categories" for 127.0.0.1 at 2015-06-16 00:52:37 -0300
+2015-06-16 00:52:37.792007 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Processing by CategoriesController#index as HTML
+2015-06-16 00:52:37.807408 [32m[1mD[0m [51032:70226545082880] [32mMoped[0m --   MOPED: 127.0.0.1:27017 QUERY        database=numis_development collection=categories selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6140ms
+2015-06-16 00:52:37.847147 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered categories/index.html.erb within layouts/application (41.4ms)
+2015-06-16 00:52:37.847333 [36m[1mI[0m [51032:70226545082880] [36mActionController[0m -- Completed 500 Internal Server Error in 55ms
+2015-06-16 00:52:37.848631 [31m[1mF[0m [51032:70226545082880] [31mRails[0m -- 
+ActionView::Template::Error (undefined method `category_unclassified_path' for #<#<Class:0x007fbdcf2b32e0>:0x007fbdcf3235e0>):
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td><%= category.type %></td>
+    19:         <td><%= link_to 'Show', category %></td>
+    20:         <td><%= link_to 'Edit', edit_category_path(category) %></td>
+    21:         <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  app/views/categories/index.html.erb:19:in `block in _app_views_categories_index_html_erb___3426665612593843414_70226600857440'
+  app/views/categories/index.html.erb:15:in `_app_views_categories_index_html_erb___3426665612593843414_70226600857440'
+
+
+2015-06-16 00:52:38.286863 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+2015-06-16 00:52:38.313435 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+2015-06-16 00:52:38.336440 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+2015-06-16 00:52:38.336496 [36m[1mI[0m [51032:70226545082880] [36mRails[0m --   Rendered /Users/danielrodriguesambrosio/.rvm/gems/ruby-2.2.2@numis/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.5ms)
