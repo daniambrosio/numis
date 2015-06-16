@@ -62,7 +62,7 @@ category = CategoryIncome.first_or_create!(
 
 # ------
 puts "Adicionar Categorias de Despesas"
-puts "Entretenimento"
+puts "Categoria: Entretenimento"
 category = CategoryExpense.first_or_create!(
   name: "Entretenimento",
   type: "E",
