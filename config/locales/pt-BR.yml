@@ -265,6 +265,10 @@ pt-BR:
     attributes:
       created_at: Criado em
       updated_at: Atualizado em
+      category:
+        name: Nome
+        type: Tipo
+        sub_categories: Sub Categorias
       account:
         name: Nome
         description: Descrição
