@@ -13,6 +13,8 @@ pt-BR:
   categories:
     index:
       title: "Categorias"
+    show:
+      title: "Categoria"
   # transactions:
   #   new:
   #     title: "Nova Transação"

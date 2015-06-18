@@ -1,14 +1,22 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Category -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
 <p>
-  <strong>Name:</strong>
+  <strong><%= model_class.human_attribute_name(:name) %>:</strong>
   <%= @category.name %>
 </p>
 
 <p>
-  <strong>Type:</strong>
+  <strong><%= model_class.human_attribute_name(:type) %>:</strong>
   <%= @category.type %>
 </p>
 
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+<p>
+  <strong><%= model_class.human_attribute_name(:sub_categories) %>:</strong>
+  <%=  %>
+</p>
+
+<%= link_to t('.back', :default => t("helpers.links.back")),
+            categories_path, :class => 'btn btn-mini' %>
