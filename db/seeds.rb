@@ -9,8 +9,8 @@
 # -----------------------
 # Usuarios
 # -----------------------
-puts "Add admin user"
-if !(User.where(email: 'admin@example.com'))
+puts "Add Admin user"
+if !(User.where(email: 'admin@example.com').exists?)
   admin = User.new(
     email: 'admin@example.com',
     first_name: 'Sample',
@@ -22,6 +22,21 @@ if !(User.where(email: 'admin@example.com'))
   admin.skip_confirmation!
   admin.save!
 end
+
+puts "Add Dani user"
+if !(User.where(email: 'daniel.ambrosio@gmail.com').exists?)
+  dani = User.new(
+    email: 'daniel.ambrosio@gmail.com',
+    first_name: 'Daniel',
+    last_name: 'Ambrosio',
+    roles: ['user'],
+    password: 'dani1234',
+    password_confirmation: 'dani1234'
+  )
+  dani.skip_confirmation!
+  dani.save!
+end
+
 
 # -----------------------
 # Categorias
