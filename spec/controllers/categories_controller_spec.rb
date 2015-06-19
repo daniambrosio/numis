@@ -28,14 +28,12 @@ RSpec.describe CategoriesController, type: :controller do
   # adjust the attributes here as well.
   let(:valid_attributes) {
     {name: "Valid Category Name",
-     type: "Income",
-     system: true}
+     type: "Income"}
   }
 
   let(:invalid_attributes) {
     {name: "Valid Category Name",
-     type: "",
-     system: true}
+     type: ""}
   }
 
   # This should return the minimal set of values that should be in the session

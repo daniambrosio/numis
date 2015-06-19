@@ -15,7 +15,7 @@
 
 <p>
   <strong><%= model_class.human_attribute_name(:sub_categories) %>:</strong>
-  <%=  %>
+  <%= @category.sub_categories.map{|p| p.name}.join(", ") %>.
 </p>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),

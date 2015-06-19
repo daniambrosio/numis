@@ -3,8 +3,7 @@ require 'rails_helper'
 RSpec.describe "sub_categories/edit", type: :view do
   before(:each) do
     @sub_category = assign(:sub_category, SubCategory.create!(
-      :name => "MyString",
-      :system => false
+      :name => "MyString"
     ))
   end
 
@@ -15,7 +14,7 @@ RSpec.describe "sub_categories/edit", type: :view do
 
       assert_select "input#sub_category_name[name=?]", "sub_category[name]"
 
-      assert_select "input#sub_category_system[name=?]", "sub_category[system]"
+      # assert_select "input#sub_category_system[name=?]", "sub_category[system]"
     end
   end
 end

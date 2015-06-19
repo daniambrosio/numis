@@ -18,11 +18,7 @@
         <td><%= link_to category.name, category_path(category) %></td>
         <td><%= category.type_description %></td>
         <td>
-        <% if false %>
-          <% category.sub_categories.each do |subc| %>
-            <%= subc.name + ", " %>
-          <% end %>
-        <% end %>
+          <%= category.sub_categories.map{|p| p.name}.join(", ") %>.
         </td>
         <td>
         </td>

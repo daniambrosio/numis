@@ -48,22 +48,20 @@ puts "Adicionar Categoria Nao Classificado"
 category = CategoryUnclassified.first_or_create!(
   name: "Não Classificado",
   type: "U",
-  system: true
 )
-# category.sub_categories.first_or_create!(name: "Classificar", system: true)
+category.sub_categories.first_or_create!(name: "Classificar")
 
 # ------
 puts "Adicionar Categoria Entre Contas"
 category = CategoryTransfer.first_or_create!(
   name: "Lançamento Entre Contas",
   type: "T",
-  system: true
 )
-# category.sub_categories.first_or_create!(name: "Pagamento de Cartão", system: true)
-# category.sub_categories.first_or_create!(name: "Resgate", system: true)
-# category.sub_categories.first_or_create!(name: "Saque", system: true)
-# category.sub_categories.first_or_create!(name: "Aplicação", system: true)
-# category.sub_categories.first_or_create!(name: "Transferência", system: true)
+category.sub_categories.first_or_create!(name: "Pagamento de Cartão")
+category.sub_categories.first_or_create!(name: "Resgate")
+category.sub_categories.first_or_create!(name: "Saque")
+category.sub_categories.first_or_create!(name: "Aplicação")
+category.sub_categories.first_or_create!(name: "Transferência")
 
 
 # ------
@@ -71,8 +69,16 @@ puts "Adicionar Categorias de Renda"
 category = CategoryIncome.first_or_create!(
   name: "Renda",
   type: "I",
-  system: true
 )
+category.sub_categories.find_or_create_by(name: "Salário")
+category.sub_categories.find_or_create_by(name: "Investimento")
+category.sub_categories.find_or_create_by(name: "Compra Devolvida")
+category.sub_categories.find_or_create_by(name: "Bônus")
+category.sub_categories.find_or_create_by(name: "Receitas de Juros")
+category.sub_categories.find_or_create_by(name: "Reembolso")
+category.sub_categories.find_or_create_by(name: "Receita de Aluguel")
+category.sub_categories.find_or_create_by(name: "Dividendos")
+category.sub_categories.find_or_create_by(name: "FGTS")
 
 
 # ------
@@ -81,10 +87,9 @@ puts "Categoria: Entretenimento"
 category = CategoryExpense.first_or_create!(
   name: "Entretenimento",
   type: "E",
-  system: true
 )
-# category.sub_categories.first_or_create!(name: "Artes", system: true)
-# category.sub_categories.first_or_create!(name: "Música", system: true)
-# category.sub_categories.first_or_create!(name: "Filmes e DVDs", system: true)
-# category.sub_categories.first_or_create!(name: "Jornais e Revistas", system: true)
-# category.sub_categories.first_or_create!(name: "Games", system: true)
+category.sub_categories.first_or_create!(name: "Artes")
+category.sub_categories.first_or_create!(name: "Música")
+category.sub_categories.first_or_create!(name: "Filmes e DVDs")
+category.sub_categories.first_or_create!(name: "Jornais e Revistas")
+category.sub_categories.first_or_create!(name: "Games")
