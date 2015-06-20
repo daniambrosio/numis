@@ -2,7 +2,7 @@ FactoryGirl.define do
 
   factory :category do
     name "MyString"
-    type ""
+    type "Expense"
   end
 
 end
