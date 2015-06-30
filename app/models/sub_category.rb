@@ -4,7 +4,7 @@ class SubCategory
 
   embedded_in :category
 
-  field :name, type: String
+  field :name
 
   validates_presence_of :name
 

@@ -5,5 +5,5 @@
   <%= @sub_category.name %>
 </p>
 
-<%= link_to 'Edit', edit_sub_category_path(@sub_category) %> |
-<%= link_to 'Back', sub_categories_path %>
+<%= link_to 'Edit', edit_category_sub_category_path(:category_id => @category.id, :id => @sub_category.id) %> |
+<%= link_to 'Back', category_sub_categories_path(:category_id => @category.id) %>

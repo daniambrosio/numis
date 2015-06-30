@@ -18,7 +18,6 @@ require 'support/devise.rb'
 # is no simpler way to get a handle on the object needed for the example.
 # Message expectations are only used when there is no simpler way to specify
 # that an instance is receiving a specific message.
-
 RSpec.describe CategoriesController, type: :controller do
 
   login_user

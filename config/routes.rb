@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  
-  
-  resources :sub_categories
 
-  resources :categories
+
+  resources :categories do
+    resources :sub_categories
+  end
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 

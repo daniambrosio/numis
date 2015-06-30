@@ -24,13 +24,14 @@ group :development, :test do
 end
 
 group :test do
-  gem 'mongoid-rspec'
+  gem 'mongoid-rspec', '~> 2.1.0'
   gem 'ffaker'
   gem 'simplecov', require: false
   gem 'database_cleaner', '~> 1.4.1'
 #  gem 'rb-inotify', '~> 0.9'
   gem 'rake' # travis CI will need this
   gem "codeclimate-test-reporter", require: nil
+  gem 'shoulda-matchers'
 end
 
 gem 'bootstrap-sass', '~> 2.3.2.1'

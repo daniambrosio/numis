@@ -1,20 +1,17 @@
 require 'rails_helper'
 
 RSpec.describe "sub_categories/index", type: :view do
+
   before(:each) do
-    assign(:sub_categories, [
-      SubCategory.create!(
-        :name => "Name"
-      ),
-      SubCategory.create!(
-        :name => "Name"
-      )
-    ])
+    @category = FactoryGirl.build(:category1)
+    sub_categories = @category.sub_categories
+
+    @sub_categories = assign(:sub_categories, sub_categories)
   end
 
   it "renders a list of sub_categories" do
     render
-    assert_select "tr>td", :text => "Name".to_s, :count => 2
+    assert_select "tr>td", :text => "My Sub Category 1".to_s, :count => 1
     # assert_select "tr>td", :text => false.to_s, :count => 2
   end
 end

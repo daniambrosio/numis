@@ -1,5 +1,5 @@
 require 'devise'
-require 'support/controller_macros.rb'
+require 'controller_macros.rb'
 
 RSpec.configure do |config|
   config.include Devise::TestHelpers, :type => :controller

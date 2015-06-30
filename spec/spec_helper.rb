@@ -81,11 +81,11 @@ RSpec.configure do |config|
     end
   end
 
-
   # # Clean/Reset Mongoid DB prior to running the tests
   # config.before :each do
   #   Mongoid.master.collections.select {|c| c.name !~ /system/ }.each(&:drop)
   # end
+  config.include Mongoid::Matchers
 
   # Clean/Reset Mongoid DB prior to running each test.
   # config.before(:each) do

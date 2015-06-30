@@ -21,12 +21,19 @@ require 'rails_helper'
 RSpec.describe SubCategoriesController, type: :controller do
 
   # This should return the minimal set of attributes required to create a valid
+  # Category. As you add validations to Category, be sure to
+  # adjust the attributes here as well.
+  let(:valid_attributes_category) {
+    {name: "Valid Category Name",
+     type: "Income",
+     sub_categories: [{name: "Valid Sub Category Name"}]
+    }
+  }
+
+  # This should return the minimal set of attributes required to create a valid
   # SubCategory. As you add validations to SubCategory, be sure to
   # adjust the attributes here as well.
-  FactoryGirl.create(:category)
   let(:valid_attributes) {
-    {name: "Valid SubCategory Name",
-     category_id: :category_id}
   }
 
   let(:invalid_attributes) {
@@ -40,16 +47,18 @@ RSpec.describe SubCategoriesController, type: :controller do
 
   describe "GET #index" do
     it "assigns all sub_categories as @sub_categories" do
-      sub_category = SubCategory.create! valid_attributes
-      get :index, {}, valid_session
-      expect(assigns(:sub_categories)).to eq([sub_category])
+      category = Category.create! valid_attributes_category
+      sub_categories = category.sub_categories
+      get :index, { :category_id => category._id }, valid_session
+      expect(assigns(:sub_categories)).to eq(sub_categories)
     end
   end
 
   describe "GET #show" do
     it "assigns the requested sub_category as @sub_category" do
-      sub_category = SubCategory.create! valid_attributes
-      get :show, {:id => sub_category.to_param}, valid_session
+      category = Category.create! valid_attributes_category
+      sub_category = category.sub_categories[0]
+      get :show, { :category_id => category._id, :id => sub_category.to_param}, valid_session
       expect(assigns(:sub_category)).to eq(sub_category)
     end
   end
