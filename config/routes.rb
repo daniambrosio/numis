@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  resources :banks
+
   resources :categories do
     resources :sub_categories
   end
