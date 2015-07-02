@@ -15,6 +15,11 @@ pt-BR:
       title: "Categorias"
     show:
       title: "Categoria"
+  sub_categories:
+    index:
+      title: "Sub Categorias"
+    show:
+      title: "Sub Categoria"
   # transactions:
   #   new:
   #     title: "Nova Transação"
@@ -273,6 +278,8 @@ pt-BR:
         group: Grupo
         type_description: Tipo
         sub_categories: Sub Categorias
+      sub_category:
+        name: Nome
       account:
         name: Nome
         description: Descrição

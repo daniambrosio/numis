@@ -1,9 +1,16 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = SubCategory -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
 <p>
-  <strong>Name:</strong>
+  <strong><%= model_class.human_attribute_name(:name) %>:</strong>
   <%= @sub_category.name %>
 </p>
 
-<%= link_to 'Edit', edit_category_sub_category_path(:category_id => @category.id, :id => @sub_category.id) %> |
-<%= link_to 'Back', category_sub_categories_path(:category_id => @category.id) %>
+
+<%= link_to "Lista de Sub Categorias de '#{@category.name}'",
+            category_sub_categories_path(:category_id => @category.id), :class => 'btn btn-mini' %>
+<%= link_to  "Categoria '#{@category.name}'",
+            category_path(@category), :class => 'btn btn-mini' %>
+
