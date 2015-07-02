@@ -45,3 +45,6 @@ gem 'omniauth-twitter'
 gem 'hashugar', github: 'alex-klepa/hashugar'
 gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'rails_semantic_logger'
+
+# project specific gems (not coming with the rails4-mongoid-bootstrap)
+gem "mongoid-enum"

@@ -47,15 +47,24 @@ end
 puts "Adicionar Categoria Nao Classificado"
 category = CategoryUnclassified.first_or_create!(
   name: "Não Classificado",
-  type: "U",
+  group: :unclassified
 )
 category.sub_categories.first_or_create!(name: "Classificar")
+
+# ------
+puts "Adicionar Categoria Split"
+category = CategorySplit.first_or_create!(
+  name: "Dividida",
+  group: :split
+)
+category.sub_categories.first_or_create!(name: "Dividida")
+
 
 # ------
 puts "Adicionar Categoria Entre Contas"
 category = CategoryTransfer.first_or_create!(
   name: "Lançamento Entre Contas",
-  type: "T",
+  group: :transfer
 )
 category.sub_categories.first_or_create!(name: "Pagamento de Cartão")
 category.sub_categories.first_or_create!(name: "Resgate")
@@ -68,7 +77,7 @@ category.sub_categories.first_or_create!(name: "Transferência")
 puts "Adicionar Categorias de Renda"
 category = CategoryIncome.first_or_create!(
   name: "Renda",
-  type: "I",
+  group: :income
 )
 category.sub_categories.find_or_create_by(name: "Salário")
 category.sub_categories.find_or_create_by(name: "Investimento")
@@ -86,7 +95,7 @@ puts "Adicionar Categorias de Despesas"
 puts "Categoria: Entretenimento"
 category = CategoryExpense.first_or_create!(
   name: "Entretenimento",
-  type: "E",
+  group: :expense
 )
 category.sub_categories.first_or_create!(name: "Artes")
 category.sub_categories.first_or_create!(name: "Música")

@@ -270,6 +270,7 @@ pt-BR:
       category:
         name: Nome
         type: Tipo
+        group: Grupo
         type_description: Tipo
         sub_categories: Sub Categorias
       account:

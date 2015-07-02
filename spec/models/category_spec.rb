@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe Category do
 
   it { is_expected.to validate_presence_of(:name) }
-  it { is_expected.to validate_presence_of(:type) }
+  it { is_expected.to validate_presence_of(:group) }
 
-  it { is_expected.to have_fields(:name, :type) }
+  it { is_expected.to have_fields(:name, :_group) }
 
   # if you're declaring 'include Mongoid::Timestamps'
   # or any of 'include Mongoid::Timestamps::Created' and 'Mongoid::Timestamps::Updated'

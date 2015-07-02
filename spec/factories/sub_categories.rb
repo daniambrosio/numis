@@ -2,7 +2,7 @@ FactoryGirl.define do
 
   factory :category1, :class => :category_expense do
     name "My Category 1"
-    type "Expense"
+    group "expense"
     sub_categories    { [FactoryGirl.build(:sub_category1), FactoryGirl.build(:sub_category2)] }
   end
 
