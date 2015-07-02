@@ -4,7 +4,7 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
-    @categories = Category.all().asc(:name)
+    @categories = Category.all().asc(:group,:name)
   end
 
   # GET /categories/1

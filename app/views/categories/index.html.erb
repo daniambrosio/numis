@@ -6,16 +6,16 @@
 <table class="table table-hover">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:type) %></th>
+      <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:sub_categories) %></th>
     </tr>
   </thead>
   <tbody>
     <% @categories.each do |category| %>
       <tr>
-        <td><%= link_to category.name, category_path(category) %></td>
         <td><%= category.type_description %></td>
+        <td><%= link_to category.name, category_path(category) %></td>
         <td>
           [<%= link_to "Todas", category_sub_categories_path(category) %>] - <%= category.sub_categories.sort_by{|e| e.name}.map{|p| p.name}.join(", ") %>.
         </td>
