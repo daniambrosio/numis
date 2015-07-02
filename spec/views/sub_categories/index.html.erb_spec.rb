@@ -4,9 +4,7 @@ RSpec.describe "sub_categories/index", type: :view do
 
   before(:each) do
     @category = FactoryGirl.build(:category1)
-    sub_categories = @category.sub_categories
-
-    @sub_categories = assign(:sub_categories, sub_categories)
+    @sub_categories = @category.sub_categories
   end
 
   it "renders a list of sub_categories" do

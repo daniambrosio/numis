@@ -25,7 +25,7 @@ RSpec.describe SubCategoriesController, type: :controller do
   # adjust the attributes here as well.
   let(:valid_attributes_category) {
     {name: "Valid Category Name",
-     group: "income",
+     group: :income,
      sub_categories: [{name: "Valid Sub Category Name"}]
     }
   }

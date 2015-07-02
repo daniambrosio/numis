@@ -15,9 +15,9 @@
     <% @categories.each do |category| %>
       <tr>
         <td><%= category.type_description %></td>
-        <td><%= link_to category.name, category_path(category) %></td>
+        <td><%= link_to category.name, category_path(category.id) %></td>
         <td>
-          [<%= link_to "Todas", category_sub_categories_path(category) %>] - <%= category.sub_categories.sort_by{|e| e.name}.map{|p| p.name}.join(", ") %>.
+          [<%= link_to "Todas", category_sub_categories_path(category.id) %>] - <%= category.sub_categories.sort_by{|e| e.name}.map{|p| p.name}.join(", ") %>.
         </td>
       </tr>
     <% end %>

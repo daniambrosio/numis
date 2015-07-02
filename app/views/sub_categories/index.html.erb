@@ -12,7 +12,7 @@
   <tbody>
     <% @sub_categories.each do |sub_category| %>
       <tr>
-        <td><%= link_to sub_category.name, category_sub_category_path(@category,sub_category) %></td>
+        <td><%= link_to sub_category.name, category_sub_category_path(@category.id,sub_category.id) %></td>
       </tr>
     <% end %>
   </tbody>
