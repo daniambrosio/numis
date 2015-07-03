@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   authenticated :user do
-    root to: 'home#index', as: :authenticated_root
+    root to: 'home#dashboard', as: :authenticated_root
   end
 
   unauthenticated do

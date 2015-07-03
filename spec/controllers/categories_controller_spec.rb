@@ -20,6 +20,7 @@ require 'support/devise.rb'
 # that an instance is receiving a specific message.
 RSpec.describe CategoriesController, type: :controller do
 
+  # Call the login method to be used for all methods
   login_user
 
   # This should return the minimal set of attributes required to create a valid
@@ -39,6 +40,12 @@ RSpec.describe CategoriesController, type: :controller do
   # in order to pass any filters (e.g. authentication) defined in
   # CategoriesController. Be sure to keep this updated too.
   let(:valid_session) { {} }
+
+  describe "authenticated_user" do
+    it "should have a current_user" do
+      expect(subject.current_user).not_to be_nil
+    end
+  end
 
   describe "GET #index" do
     it "assigns all categories as @categories" do
