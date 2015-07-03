@@ -24,11 +24,11 @@ RSpec.describe BanksController, type: :controller do
   # Bank. As you add validations to Bank, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    {name: "Citibank"}
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    {name: ""}
   }
 
   # This should return the minimal set of values that should be in the session
@@ -52,108 +52,108 @@ RSpec.describe BanksController, type: :controller do
     end
   end
 
-  describe "GET #new" do
-    it "assigns a new bank as @bank" do
-      get :new, {}, valid_session
-      expect(assigns(:bank)).to be_a_new(Bank)
-    end
-  end
+  # describe "GET #new" do
+  #   it "assigns a new bank as @bank" do
+  #     get :new, {}, valid_session
+  #     expect(assigns(:bank)).to be_a_new(Bank)
+  #   end
+  # end
 
-  describe "GET #edit" do
-    it "assigns the requested bank as @bank" do
-      bank = Bank.create! valid_attributes
-      get :edit, {:id => bank.to_param}, valid_session
-      expect(assigns(:bank)).to eq(bank)
-    end
-  end
+  # describe "GET #edit" do
+  #   it "assigns the requested bank as @bank" do
+  #     bank = Bank.create! valid_attributes
+  #     get :edit, {:id => bank.to_param}, valid_session
+  #     expect(assigns(:bank)).to eq(bank)
+  #   end
+  # end
 
-  describe "POST #create" do
-    context "with valid params" do
-      it "creates a new Bank" do
-        expect {
-          post :create, {:bank => valid_attributes}, valid_session
-        }.to change(Bank, :count).by(1)
-      end
+  # describe "POST #create" do
+  #   context "with valid params" do
+  #     it "creates a new Bank" do
+  #       expect {
+  #         post :create, {:bank => valid_attributes}, valid_session
+  #       }.to change(Bank, :count).by(1)
+  #     end
 
-      it "assigns a newly created bank as @bank" do
-        post :create, {:bank => valid_attributes}, valid_session
-        expect(assigns(:bank)).to be_a(Bank)
-        expect(assigns(:bank)).to be_persisted
-      end
+  #     it "assigns a newly created bank as @bank" do
+  #       post :create, {:bank => valid_attributes}, valid_session
+  #       expect(assigns(:bank)).to be_a(Bank)
+  #       expect(assigns(:bank)).to be_persisted
+  #     end
 
-      it "redirects to the created bank" do
-        post :create, {:bank => valid_attributes}, valid_session
-        expect(response).to redirect_to(Bank.last)
-      end
-    end
+  #     it "redirects to the created bank" do
+  #       post :create, {:bank => valid_attributes}, valid_session
+  #       expect(response).to redirect_to(Bank.last)
+  #     end
+  #   end
 
-    context "with invalid params" do
-      it "assigns a newly created but unsaved bank as @bank" do
-        post :create, {:bank => invalid_attributes}, valid_session
-        expect(assigns(:bank)).to be_a_new(Bank)
-      end
+  #   context "with invalid params" do
+  #     it "assigns a newly created but unsaved bank as @bank" do
+  #       post :create, {:bank => invalid_attributes}, valid_session
+  #       expect(assigns(:bank)).to be_a_new(Bank)
+  #     end
 
-      it "re-renders the 'new' template" do
-        post :create, {:bank => invalid_attributes}, valid_session
-        expect(response).to render_template("new")
-      end
-    end
-  end
+  #     it "re-renders the 'new' template" do
+  #       post :create, {:bank => invalid_attributes}, valid_session
+  #       expect(response).to render_template("new")
+  #     end
+  #   end
+  # end
 
-  describe "PUT #update" do
-    context "with valid params" do
-      let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
-      }
+  # describe "PUT #update" do
+  #   context "with valid params" do
+  #     let(:new_attributes) {
+  #       skip("Add a hash of attributes valid for your model")
+  #     }
 
-      it "updates the requested bank" do
-        bank = Bank.create! valid_attributes
-        put :update, {:id => bank.to_param, :bank => new_attributes}, valid_session
-        bank.reload
-        skip("Add assertions for updated state")
-      end
+  #     it "updates the requested bank" do
+  #       bank = Bank.create! valid_attributes
+  #       put :update, {:id => bank.to_param, :bank => new_attributes}, valid_session
+  #       bank.reload
+  #       skip("Add assertions for updated state")
+  #     end
 
-      it "assigns the requested bank as @bank" do
-        bank = Bank.create! valid_attributes
-        put :update, {:id => bank.to_param, :bank => valid_attributes}, valid_session
-        expect(assigns(:bank)).to eq(bank)
-      end
+  #     it "assigns the requested bank as @bank" do
+  #       bank = Bank.create! valid_attributes
+  #       put :update, {:id => bank.to_param, :bank => valid_attributes}, valid_session
+  #       expect(assigns(:bank)).to eq(bank)
+  #     end
 
-      it "redirects to the bank" do
-        bank = Bank.create! valid_attributes
-        put :update, {:id => bank.to_param, :bank => valid_attributes}, valid_session
-        expect(response).to redirect_to(bank)
-      end
-    end
+  #     it "redirects to the bank" do
+  #       bank = Bank.create! valid_attributes
+  #       put :update, {:id => bank.to_param, :bank => valid_attributes}, valid_session
+  #       expect(response).to redirect_to(bank)
+  #     end
+  #   end
 
-    context "with invalid params" do
-      it "assigns the bank as @bank" do
-        bank = Bank.create! valid_attributes
-        put :update, {:id => bank.to_param, :bank => invalid_attributes}, valid_session
-        expect(assigns(:bank)).to eq(bank)
-      end
+  #   context "with invalid params" do
+  #     it "assigns the bank as @bank" do
+  #       bank = Bank.create! valid_attributes
+  #       put :update, {:id => bank.to_param, :bank => invalid_attributes}, valid_session
+  #       expect(assigns(:bank)).to eq(bank)
+  #     end
 
-      it "re-renders the 'edit' template" do
-        bank = Bank.create! valid_attributes
-        put :update, {:id => bank.to_param, :bank => invalid_attributes}, valid_session
-        expect(response).to render_template("edit")
-      end
-    end
-  end
+  #     it "re-renders the 'edit' template" do
+  #       bank = Bank.create! valid_attributes
+  #       put :update, {:id => bank.to_param, :bank => invalid_attributes}, valid_session
+  #       expect(response).to render_template("edit")
+  #     end
+  #   end
+  # end
 
-  describe "DELETE #destroy" do
-    it "destroys the requested bank" do
-      bank = Bank.create! valid_attributes
-      expect {
-        delete :destroy, {:id => bank.to_param}, valid_session
-      }.to change(Bank, :count).by(-1)
-    end
+  # describe "DELETE #destroy" do
+  #   it "destroys the requested bank" do
+  #     bank = Bank.create! valid_attributes
+  #     expect {
+  #       delete :destroy, {:id => bank.to_param}, valid_session
+  #     }.to change(Bank, :count).by(-1)
+  #   end
 
-    it "redirects to the banks list" do
-      bank = Bank.create! valid_attributes
-      delete :destroy, {:id => bank.to_param}, valid_session
-      expect(response).to redirect_to(banks_url)
-    end
-  end
+  #   it "redirects to the banks list" do
+  #     bank = Bank.create! valid_attributes
+  #     delete :destroy, {:id => bank.to_param}, valid_session
+  #     expect(response).to redirect_to(banks_url)
+  #   end
+  # end
 
 end

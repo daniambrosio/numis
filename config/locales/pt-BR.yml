@@ -20,6 +20,11 @@ pt-BR:
       title: "Sub Categorias"
     show:
       title: "Sub Categoria"
+  banks:
+    index:
+      title: "Bancos"
+    show:
+      title: "Banco"
   # transactions:
   #   new:
   #     title: "Nova Transação"
@@ -272,6 +277,8 @@ pt-BR:
     attributes:
       created_at: Criado em
       updated_at: Atualizado em
+      bank:
+        name: Nome
       category:
         name: Nome
         type: Tipo

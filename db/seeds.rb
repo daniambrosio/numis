@@ -46,16 +46,14 @@ end
 # =====================================
 # ------
 puts "Adicionar Categoria Nao Classificado"
-category = CategoryUnclassified.first_or_create!(
-  name: "Não Classificado",
+category = CategoryUnclassified.where(name: "Não Classificado").first_or_create!(
   group: :unclassified
 )
 category.sub_categories.first_or_create!(name: "Classificar")
 
 # ------
 puts "Adicionar Categoria Split"
-category = CategorySplit.first_or_create!(
-  name: "Dividida",
+category = CategorySplit.where(name: "Dividida").first_or_create!(
   group: :split
 )
 category.sub_categories.first_or_create!(name: "Dividida")
@@ -64,8 +62,7 @@ category.sub_categories.first_or_create!(name: "Dividida")
 # =====================================
 # ------
 puts "Adicionar Categoria Entre Contas"
-category = CategoryTransfer.first_or_create!(
-  name: "Lançamento Entre Contas",
+category = CategoryTransfer.where(name: "Lançamento Entre Contas").first_or_create!(
   group: :transfer
 )
 category.sub_categories.first_or_create!(name: "Pagamento de Cartão")
@@ -78,8 +75,7 @@ category.sub_categories.first_or_create!(name: "Transferência")
 # =====================================
 # ------
 puts "Adicionar Categorias de Renda"
-category = CategoryIncome.first_or_create!(
-  name: "Renda",
+category = CategoryIncome.where(name: "Renda").first_or_create!(
   group: :income
 )
 category.sub_categories.first_or_create!(name: "Salário")
@@ -282,3 +278,13 @@ category.sub_categories.first_or_create!(name: "Impressão")
 category.sub_categories.first_or_create!(name: "Frete")
 category.sub_categories.first_or_create!(name: "Legal e Jurídica")
 
+# -----------------------
+# Categorias
+# Com base no mint: https://www.mint.com/mint-categories/
+# -----------------------
+
+# =====================================
+# ------
+puts "Adicionar Bancos"
+bank = Bank.where(name: "Bradesco").first_or_create!
+bank = Bank.where(name: "Santander").first_or_create!

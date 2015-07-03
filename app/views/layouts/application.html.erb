@@ -27,7 +27,7 @@
       <div class="content">
          <div class="row">
           <div class="span12">
-            <%= render 'layouts/messages' %>
+            <%= render partial: 'layouts/messages', flash: flash %>
             <%= yield %>
           </div>
         </div>

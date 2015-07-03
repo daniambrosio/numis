@@ -1,29 +1,20 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Bank -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
 
-<h1>Listing Banks</h1>
-
-<table>
+<table class="table table-hover">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Parsers</th>
-      <th colspan="3"></th>
+      <th><%= model_class.human_attribute_name(:name) %></th>
     </tr>
   </thead>
-
   <tbody>
     <% @banks.each do |bank| %>
       <tr>
-        <td><%= bank.name %></td>
-        <td><%= bank.parsers %></td>
-        <td><%= link_to 'Show', bank %></td>
-        <td><%= link_to 'Edit', edit_bank_path(bank) %></td>
-        <td><%= link_to 'Destroy', bank, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to bank.name, bank_path(bank.id) %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
-
-<%= link_to 'New Bank', new_bank_path %>

@@ -4,19 +4,17 @@ RSpec.describe "banks/index", type: :view do
   before(:each) do
     assign(:banks, [
       Bank.create!(
-        :name => "Name",
-        :parsers => ""
+        :name => "Citibank"
       ),
       Bank.create!(
-        :name => "Name",
-        :parsers => ""
+        :name => "HSBC"
       )
     ])
   end
 
   it "renders a list of banks" do
     render
-    assert_select "tr>td", :text => "Name".to_s, :count => 2
-    assert_select "tr>td", :text => "".to_s, :count => 2
+    assert_select "tr>td", :text => "Citibank".to_s, :count => 1
+    assert_select "tr>td", :text => "HSBC".to_s, :count => 1
   end
 end
